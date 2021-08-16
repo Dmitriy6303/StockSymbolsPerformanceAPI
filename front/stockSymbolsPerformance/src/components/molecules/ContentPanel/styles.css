@@ -1,0 +1,22 @@
+.content-panel-container {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 20px);
+  padding: 10px;
+  min-height: 500px;
+  border-radius: 4px;
+  row-gap: 10px;
+}
+
+.content-panel-container .action-group-panel {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  column-gap: 10px;
+}
+
+.content-panel-container .loader-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

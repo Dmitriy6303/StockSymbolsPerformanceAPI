@@ -1,0 +1,14 @@
+.textbox {
+  width: 150px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: din-condensed, 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+
+.textbox:focus {
+  border: rgba(130,180,201,1) solid 2px;
+  outline: none !important;
+}

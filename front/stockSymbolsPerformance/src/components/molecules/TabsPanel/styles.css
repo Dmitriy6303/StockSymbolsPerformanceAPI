@@ -1,0 +1,8 @@
+.tabs-container {
+  width: calc(100% - 20px);
+  padding: 0 10px;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
